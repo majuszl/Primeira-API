@@ -15,7 +15,7 @@ try:
 except Exception as e:
     print(f"Erro! {e}")
 
-from view import *  #importa tudo do file view
+from view import *
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000) #porta 5000 é a porta-padrão

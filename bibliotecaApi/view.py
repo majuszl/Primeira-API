@@ -19,7 +19,7 @@ def generated_token(user_id):
     return token
 
 def remover_bearer(token):
-    if token.startwith('Bearer '):
+    if token.startswith('Bearer '):
         return token[len('Bearer '):]
     else:
         return token
